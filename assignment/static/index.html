@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <script src="./static/colors.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <h2>Events</h2>
+        <button id="btn1" style="background-color: red;" onmouseover="changecolor1()">MouseOver</button>
+        <button id="btn2" style="background-color: red;" onmouseout="changecolor2()">MouseOut</button>
+        <button class="btn3" style="background-color: red;" onclick="changecolor3()">OnClick</button>
+        <hr>
+        <form>
+            <label>OnFocus Example</label>
+            <input type="text" onfocus="changecolor5()" id="frm1"/>
+            <hr>
+            <label>OnBlur Example</label>
+            <input type="text" onblur="changecase()" id="frm2" />
+        </form>
+    </body>
+</html>
